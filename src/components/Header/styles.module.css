@@ -1,0 +1,35 @@
+.header {
+    font-family: 'Product Sans', 'sans-serif';
+}
+
+.header h2 {
+    text-align: left;
+    font-weight: 700;
+    color: #4E598C;
+    margin-bottom: 2rem;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000000;
+    padding:0 1.2rem 1.2rem 0;
+}
+
+.header ul li a {
+    color: #BDBDBD;
+    font-weight: 700;
+}
+
+.header ul li a:hover, .header ul li a:active {
+    color: #F2994A;
+    border-bottom: 8px;
+    border-radius: 10px;
+    padding: 0 20px .5rem 5px;
+    margin-bottom: -5px;
+}
+
+.footer {
+    border-bottom: 8px solid #F2994A !important;
+    border-radius:4px;
+}

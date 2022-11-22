@@ -1,0 +1,228 @@
+@import url('http://fonts.cdnfonts.com/css/product-sans');
+
+*,::before,::after{
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Product Sans', sans-serif;                           
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(176deg, rgba(242, 201, 76, 0.2) 50%, #fff calc(50% + 2px));
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+input, select, textarea {
+  outline: none;
+}
+
+svg {
+  color: #EB5757;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: .3rem;
+  margin-top: -.5rem;
+}
+
+.inputContainer{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.label {
+  color: #000000;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.instruction {
+  display: block;
+  font-weight: 400;
+  color: #817E9E;
+  margin-top: 15px;
+}
+
+input{
+  width: 100%;
+  height: 3.2rem;
+  color: #4F4F4F;
+  background: white;
+  font-weight: 500;
+  outline: none;
+  padding: 0 1rem;
+  border: 1px solid #4E598C;
+  border-radius: 10px;
+}
+
+select{
+  width: 100%;
+  height: 3.2rem;
+  color: #4F4F4F;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='1500' viewBox='0 0 24 24' width='1500' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 2rem center;
+  background-size: 3em;
+  font-weight: 500;
+  outline: none;
+  padding: 0 1rem;
+  border: 1px solid #4E598C;
+  border-radius: 10px;
+}
+
+.select .label {
+  margin-bottom: 1.8rem;
+}
+
+.sm {
+  flex-basis: 33%;
+}
+
+.md {
+flex-basis: 50%;
+}
+
+.lg {
+flex-basis: 67%;
+}
+
+.wrapper {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+
+.wrapper > div {
+  margin-top: 2rem;
+}
+
+.wrap-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+.btn-flex {
+  display: flex;
+  justify-content: flex-start;
+  gap: 60px;
+  margin-top: .1rem;
+}
+
+.btn-flex p {
+  color: #4E598C;
+  font-weight: 700;
+}
+
+.carddeets-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  gap: 30px;
+}
+
+.table {
+  box-shadow: 0px 10px 15px rgba(33, 30, 67, 0.08);
+  border-radius: 10px;
+  padding-bottom: 1px;
+}
+
+.table section {
+  width: 100%;
+}
+
+.table-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-flex svg {
+  color: #F2F2F2;
+  font-size: 20px;
+  margin-right: 15px;
+  /* padding-top: 10px; */
+}
+
+.table-flex p:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+}
+
+.table-flex .price {
+  font-weight: 700;
+  color: #4E598C;
+}
+
+.table-flex .shipping-price {
+  color: #000;
+}
+
+.table-flex .tot {
+  color: #817E9E;;
+}
+
+.table-head {
+  background: #2F80ED;
+  border-radius: 16px 10px 0px 0px;
+  color: #fff;
+  padding: 0 10%;
+}
+
+.table-head p{
+  display: flex;
+  place-items: center;
+}
+
+.table-body {
+  color: #4E598C;
+  background-color: #fff;
+  padding: 1rem 10% .2rem;
+}
+
+hr {
+  border: 0;
+  height: .2px;
+  background: #817E9E;
+  margin: 0 3%;
+}
+
+.table-footer{
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  margin: 2rem 5%;
+  padding: 0 5%;
+}
+
+.active::before {
+  color: #F2994A;
+  border-bottom: 8px;
+  border-radius: 10px;
+  padding: 0 20px .5rem 5px;
+  margin-bottom: -5px;
+}
+
+.personal {
+  color: #F2994A;
+  border-bottom: 8px;
+  border-radius: 10px;
+  padding: 0 20px .5rem 5px;
+  margin-bottom: -5px;
+}
+
+.personal::after {
+  content: '';
+  border-bottom: 8px solid #F2994A !important;
+  border-radius:4px;
+}
